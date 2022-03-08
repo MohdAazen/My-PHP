@@ -12,6 +12,7 @@ $a = 5;
 $b = 3;
 echo $a ^ $b;
 echo "<br>";
+echo "hii";
 ?>
 </body>
 </html>
