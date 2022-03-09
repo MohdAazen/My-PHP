@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bitwise XOR</title>
+    <title>If Statement</title>
 </head>
 <body>
-<?php
-$a = 5;
-$b = 3;
-echo $a ^ $b;
-echo "<br>";
-echo "hii";
-?>
+    <?php
+    $a = 10;
+    if($a > 0)
+    {
+        echo "The number is positive";
+    }
+    ?>
 </body>
 </html>
