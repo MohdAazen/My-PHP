@@ -19,8 +19,8 @@
     echo $course[2], "<br>";
 
     echo "<h3>After modification: </h3>";
-    echo $course[2] = "Mechanical Engg.";
-    echo $course[] = "Civil Engg.";
+    $course[2] = "Mechanical Engg.";
+    $course[3] = "Civil Engg.";
     for ($i=0; $i < count($course) ; $i++) { 
         echo $course[$i], "<br>";
     }
