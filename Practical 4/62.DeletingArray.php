@@ -19,7 +19,7 @@
     echo "$course[4]<br>";
 
     unset($course[3]);
-    echo "<h3>Before Deletion: </h3><br>";
+    echo "<h3>After Deletion: </h3><br>";
     print_r($course);
 
     echo "<h3>Delete entire array elements: </h3><br>";
